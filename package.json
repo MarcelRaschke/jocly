@@ -48,7 +48,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "systemjs": "^0.20.10"
+    "systemjs": "^6.12.1"
   },
   "engines": {
     "node": ">=5.10.1"
