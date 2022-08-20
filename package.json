@@ -41,7 +41,7 @@
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.1.2",
     "jquery": "^3.2.1",
-    "merge-stream": "^1.0.1",
+    "merge-stream": "^2.0.0",
     "run-sequence": "^1.2.2",
     "through2": "^2.0.3",
     "vinyl-buffer": "^1.0.0",
