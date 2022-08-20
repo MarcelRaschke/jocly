@@ -33,7 +33,7 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-add": "0.0.2",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^3.1.0",
     "gulp-if": "^2.0.2",
