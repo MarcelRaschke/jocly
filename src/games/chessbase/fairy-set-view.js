@@ -42,6 +42,21 @@
 					clipx: 0,
 				},
 			},
+			"fr-hoplit": {
+				"2d": {
+					clipx: 0,
+				},
+			},
+			"fr-ferz": {
+				"2d": {
+					clipx: 3900,
+				},
+			},
+			"fr-wazir": {
+				"2d": {
+					clipx: 3800,
+				},
+			},
 			"fr-knight": {
 				"2d": {
 					clipx: 100,
@@ -52,9 +67,29 @@
 					clipx: 200,
 				},
 			},
+			"fr-small-bishop": {
+				"2d": {
+					clipx: 3400,
+				},
+			},
+			"fr-crowned-bishop": {
+				"2d": {
+					clipx: 3300,
+				},
+			},
 			"fr-rook": {
 				"2d": {
 					clipx: 300,
+				},
+			},
+			"fr-small-rook": {
+				"2d": {
+					clipx: 3500,
+				},
+			},
+			"fr-gate": {
+				"2d": {
+					clipx: 3600,
 				},
 			},
 			"fr-queen": {
@@ -62,9 +97,24 @@
 					clipx: 400,
 				},
 			},
+			"fr-proper-queen": {
+				"2d": {
+					clipx: 400,
+				},
+			},
 			"fr-king": {
 				"2d": {
 					clipx: 500,
+				},
+			},
+			"fr-emperor": {
+				"2d": {
+					clipx: 500,
+				},
+			},
+			"fr-man": {
+				"2d": {
+					clipx: 3700,
 				},
 			},
 			"fr-cannon": {
@@ -78,6 +128,11 @@
 				},
 			},
 			"fr-elephant": {
+				"2d": {
+					clipx: 700,
+				},
+			},
+			"fr-proper-elephant": {
 				"2d": {
 					clipx: 700,
 				},
@@ -102,6 +157,11 @@
 					clipx: 1100,
 				},
 			},
+			"fr-birdie": {
+				"2d": {
+					clipx: 1100,
+				},
+			},
 			"fr-lion": {
 				"2d": {
 					clipx: 1200,
@@ -122,7 +182,17 @@
 					clipx: 1500,
 				},
 			},
+			"fr-proper-crowned-rook": {
+				"2d": {
+					clipx: 1500,
+				},
+			},
 			"fr-marshall": {
+				"2d": {
+					clipx: 1600,
+				},
+			},
+			"fr-proper-marshall": {
 				"2d": {
 					clipx: 1600,
 				},
@@ -132,27 +202,17 @@
 					clipx: 1700,
 				},
 			},
+			"fr-proper-cardinal": {
+				"2d": {
+					clipx: 1700,
+				},
+			},
 			"fr-unicorn": {
 				"2d": {
 					clipx: 1800,
 				},
 			},
-			"fr-star": {
-				"2d": {
-					clipx: 2600,
-				},
-			},
-			"fr-bow": {
-				"2d": {
-					clipx: 2400,
-				},
-			},
-			"fr-prince": {
-				"2d": {
-					clipx: 2100,
-				},
-			},
-			"fr-rhino": {
+            "fr-rhino": {
 				"2d": {
 					clipx: 1900,
 				},
@@ -161,10 +221,25 @@
 				"2d": {
 					clipx: 2000,
 				},
-			},
-			"fr-corporal": {
+			},		
+			"fr-prince": {
 				"2d": {
-					clipx: 2700,
+					clipx: 2100,
+				},
+			},
+			"fr-ship": {
+				"2d": {
+					clipx: 2200,
+				},
+			},
+            "fr-buffalo": {
+				"2d": {
+					clipx: 2300,
+				},
+			},
+			"fr-bow": {
+				"2d": {
+					clipx: 2400,
 				},
 			},
 			"fr-antelope": {
@@ -172,20 +247,81 @@
 					clipx: 2500,
 				},
 			},
+			"fr-star": {
+				"2d": {
+					clipx: 2600,
+				},
+			},
+			"fr-corporal": {
+				"2d": {
+					clipx: 2700,
+				},
+			},
+			
 			"fr-machine": {
 				"2d": {
 					clipx: 2800,
 				},
 			},
-			"fr-buffalo": {
+			"fr-giraffe": {
 				"2d": {
-					clipx: 2300,
+					clipx: 4000,
 				},
 			},
-			"fr-ship": {
+			"fr-wolf": {
 				"2d": {
-					clipx: 2200,
+					clipx: 4100,
 				},
+			},
+			"fr-squirle": {
+				"2d": {
+					clipx: 4200,
+				},
+			},
+			"fr-crowned-rook": {
+				"2d": {
+					clipx: 4300,
+				},
+			},
+            "fr-crowned-knight": {
+				"2d": {
+					clipx: 4400,
+				},
+			},
+            "fr-crowned-bishop": {
+				"2d": {
+					clipx: 4500,
+				},
+			},
+            "fr-leopard": {
+				"2d": {
+					clipx: 4600,
+				},
+			},
+            "fr-huscarl": {
+				"2d": {
+					clipx: 4700,
+					},
+			},
+            "fr-griffin": {
+				"2d": {
+					clipx: 4800,
+					},
+			},
+            "fr-mammoth": {
+				"2d": {
+					clipx: 4900,
+					},
+			},
+            "fr-duchess": {
+				"2d": {
+					clipx: 5000,
+					},
+			},
+            "fr-hawk": {
+				"2d": {
+					clipx: 5100,
+					},
 			},
 		},modifier);
 	}
@@ -275,6 +411,72 @@
 			},
 		},
 
+		"fr-hoplit": {
+			mesh: {
+				jsFile:"/res/fairy/pawn/hoplit.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/pawn/hoplit-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/pawn/pawn-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-ferz": {
+			mesh: {
+				jsFile:"/res/fairy/pawn/ferz.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/pawn/pawn-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/pawn/pawn-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-wazir": {
+			mesh: {
+				jsFile:"/res/fairy/pawn/wazir.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/pawn/pawn-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/pawn/pawn-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
 		"fr-knight": {
 			mesh: {
 				jsFile:"/res/fairy/knight/knight.js"
@@ -285,6 +487,94 @@
 						diffuse: {
 							texturesImg: {
 								diffImg : "/res/fairy/knight/knight-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/knight/knight-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-nightrider": {
+			mesh: {
+				jsFile:"/res/fairy/knight/nightrider.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/knight/pedestal-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/knight/knight-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-wazir-knight": {
+			mesh: {
+				jsFile:"/res/fairy/knight/wazirknight.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/knight/pedestal-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/knight/knight-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-ferz-knight": {
+			mesh: {
+				jsFile:"/res/fairy/knight/ferzknight.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/knight/knight-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/knight/knight-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+
+		"fr-zebra": {
+			mesh: {
+				jsFile:"/res/fairy/knight/knight.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/knight/zebra-diffusemap.jpg",
 							}
 						},
 						normal: {
@@ -912,7 +1202,258 @@
 				}
 			}
 		},
+		"fr-giraffe": {
+			mesh: {
+				jsFile:"/res/fairy/giraffe/giraffe.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/giraffe/giraffe-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/giraffe/giraffe-normalmap.jpg",
 
+							}
+						}
+					}
+				}
+			}
+		},
+		"fr-wolf": {
+			mesh: {
+				jsFile:"/res/fairy/wolf/wolf.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/wolf/wolf-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/wolf/wolf-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+		"fr-squirle": {
+			mesh: {
+				jsFile:"/res/fairy/squirle/squirle.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/squirle/squirle-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/squirle/squirle-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-crowned-bishop": {
+			mesh: {
+				jsFile:"/res/fairy/crowned-bishop/crowned-bishop.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/crowned-bishop/crowned-bishop-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/crowned-bishop/crowned-bishop-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-crowned-knight": {
+			mesh: {
+				jsFile:"/res/fairy/crowned-knight/crowned-knight.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/crowned-knight/crowned-knight-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/crowned-knight/crowned-knight-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-crowned-rook": {
+			mesh: {
+				jsFile:"/res/fairy/crowned-rook/crowned-rook.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/crowned-rook/crowned-rook-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/crowned-rook/crowned-rook-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-leopard": {
+			mesh: {
+				jsFile:"/res/fairy/leopard/leopard.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/leopard/leopard-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/leopard/leopard-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-huscarl": {
+			mesh: {
+				jsFile:"/res/fairy/huscarl/huscarl.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/huscarl/huscarl-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/huscarl/huscarl-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-griffin": {
+			mesh: {
+				jsFile:"/res/fairy/griffin/griffin.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/griffin/griffin-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/griffin/griffin-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-mammoth": {
+			mesh: {
+				jsFile:"/res/fairy/mammoth/mammoth.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/mammoth/mammoth-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/mammoth/mammoth-normalmap.jpg",
+							}
+						}
+					}
+				}
+			}
+		},
+        "fr-duchess": {
+			mesh: {
+				jsFile:"/res/fairy/lighthouse/lighthouse.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/lighthouse/lighthouse-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/lighthouse/lighthouse-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
+        "fr-hawk": {
+			mesh: {
+				jsFile:"/res/fairy/hawk/hawk.js"
+			},
+			materials: {
+				mat0: {
+					channels: {
+						diffuse: {
+							texturesImg: {
+								diffImg : "/res/fairy/hawk/hawk-diffusemap.jpg",
+							}
+						},
+						normal: {
+							texturesImg: {
+								normalImg: "/res/fairy/hawk/hawk-normalmap.jpg",
+							}
+						}
+					}
+				}
+			},
+		},
 	});
-
 })();
